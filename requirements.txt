@@ -7,3 +7,5 @@ gunicorn==23.0.0
 packaging==25.0
 sqlparse==0.5.3
 tzdata==2025.2
+django-cors-headers==4.3.0
+djangorestframework-simplejwt==6.2.0
