@@ -1,22 +1,20 @@
-# Personal Budget Tracker - Backend 
+# Personal Budget Tracker - Backend
 
-This is the Django backend for Personal Budget Tracker.
+This is the Django REST Framework backend for the Personal Budget Tracker application.
 
 ## Features
 - User authentication (JWT)
-- CRUD for transactions
-- CRUD for budgets
+- CRUD APIs for transactions
+- CRUD APIs for budgets
 - Summary endpoints for dashboard
 
-## Installation
-1. Create virtual environment: `python -m venv venv`
-2. Activate venv: `venv\Scripts\activate`
-3. Install requirements: `pip install -r requirements.txt`
-4. Run migrations: `python manage.py migrate`
-5. Start server: `python manage.py runserver`
+## Requirements
+- Python 3.10+
+- Django 4+
+- Django REST Framework
 
-## API Endpoints
-- `/api/transactions/`
-- `/api/budgets/`
-- `/api/transactions/global-summary/`
-- `/api/budgets/global-summary/`
+## Installation
+```bash
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
