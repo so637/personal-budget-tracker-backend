@@ -18,3 +18,7 @@ This is the Django REST Framework backend for the Personal Budget Tracker applic
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
+## Test Login Credentials
+Username: Btest
+Password: Test@123
