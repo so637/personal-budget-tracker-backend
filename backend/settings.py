@@ -65,8 +65,16 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # react default
+    "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://personal-budget-tracker-frontend-c0pi.onrender.com",
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ALLOW_HEADERS = [
+    "authorization",
+    "content-type",
 ]
 
 ROOT_URLCONF = 'backend.urls'
